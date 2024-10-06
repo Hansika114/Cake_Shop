@@ -1,0 +1,70 @@
+*{
+  font-family: 'Georgia', serif;
+}
+
+.header-section1 {
+    background-image: linear-gradient(rgba(6, 5, 5, 0.3), rgba(8, 6, 6, 0.3)), url('../assets/about.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    height: 20vw;
+  }
+  
+  .header-content1 {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .header-content1 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  
+  }
+  
+
+ /* product cake */
+
+ .product-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #3e3b3b;
+  color: #fff;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.product-card {
+  background-color: #938b8b;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  color: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+
+.product-pricing {
+  margin-top: 10px;
+}
+
+.discounted-price {
+  font-weight: bold;
+  color: rgb(242, 196, 13);
+}

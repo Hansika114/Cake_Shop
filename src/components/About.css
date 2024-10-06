@@ -1,0 +1,90 @@
+*{
+    font-family: 'Georgia', serif;
+  }
+
+  .header-section2 {
+    background-image: linear-gradient(rgba(6, 5, 5, 0.3), rgba(8, 6, 6, 0.3)), url('../assets/about.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    height: 20vw;
+  }
+  
+  .header-content2 {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .header-content2 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  
+  }
+
+  /* Abots*/
+.about-section{
+  background-color: #292727;
+}
+ 
+  /* Comment*/
+.comment-section {
+    background-color: #2d1f1f;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .comment-heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .comment-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .comment-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .comment-rating {
+    color: #ffd700;
+    font-size: 24px;
+  }
+  
+  .comment-review {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  
+  .comment-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .comment-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .comment-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
