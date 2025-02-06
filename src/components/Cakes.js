@@ -28,7 +28,11 @@ const HeaderSection = () => {
     {name: "Chocolate Gateau", price: "4,300.00", image: require('../assets/cake10.png') },
     {name: "Blueberry Cold Cheesecake", price: "4,200.00", image: require('../assets/cake11.png') },
     {name: "Assorted cup cakes", price: "5,000.00", image: require('../assets/cake12.png') },
-   
+
+    {name: "Chocolate Fudge Cake", price: "2,700.00", image: require('../assets/cake1.png') },
+    {name: "Chocolate Cake with Roasted Nuts", price: "2,900.00", image: require('../assets/cake2.png') },
+    {name: "Chocolate Mud Cake", price: "2,900.00", image: require('../assets/cake3.png') },
+    {name: "Coffee Cake", price: "2,000.00", image: require('../assets/cake4.png') },
     
   ];
   
